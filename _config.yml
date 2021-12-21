@@ -20,12 +20,12 @@ urls:
       url : /shop
     - text: Contact
       url : /contact
-    - text: Blood Moon Dawning
-      url: /blog/blood-moon-dawning
-    - text: Shared Music Queue
-      url: /blog/adding-categories-tags-in-posts
-    - text: Scorchfrost
-      url: /blog/scorchfrost
+    # - text: Blood Moon Dawning
+    #   url: /blog/blood-moon-dawning
+    # - text: Shared Music Queue
+    #   url: /blog/adding-categories-tags-in-posts
+    # - text: Scorchfrost
+    #   url: /blog/scorchfrost
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
