@@ -74,7 +74,7 @@ author_project_details:
               - project_thumbnail: gamershub.png
                 project_title: Blood Moon Dawning
                 project_description: desc
-                project_page: blood_moon_dawning
+                project_page: blood-moon-dawning
                 project_url: https://github.com/Brandon-Nadell/Blood-Moon-Dawning
                 visibility: true
               - project_thumbnail: hack4r.PNG
