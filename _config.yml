@@ -28,9 +28,9 @@ author_logo: profile.png
 author: Brandon Nadell
 author_bio: Hi, I'm Brandon Nadell. This website is still a WIP
 author_email: "brandonnadell@gmail.com"
-author_location: remove this
+author_location: 
 author_website_url: "https://github.com/Brandon-Nadell"
-typewrite-text: remove this
+typewrite-text: 
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
@@ -71,16 +71,16 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
+twitter_username: 
 github_username:  Brandon-Nadell
-facebook_username: johndoe
+facebook_username: 
 linkedin_username: brandonnadell
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+behance_username: 
+instagram_username: 
+medium_username: 
+telegram_username: 
+dribbble_username: 
+flickr_username: 
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
@@ -88,7 +88,7 @@ flickr_username: johndoe
 hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+wakatime_username: 
 
 # mailchimp embedded form url (newsletter):
 mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
