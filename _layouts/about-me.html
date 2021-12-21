@@ -11,9 +11,9 @@ layout: default
       <h1 class="profile-name">{{ site.title }}</h1>
       <p class="profile-bio">{{ site.subtitle }}</p>
       <!-- {% if site.github_username %} {%- include github_follow_button.html -%} {%
-      endif %} -->
+      endif %}
 
-      <!-- <p class="profile-links">
+      <p class="profile-links">
         {% if site.twitter_username %}
         <a
           class="social-link"
@@ -92,10 +92,10 @@ layout: default
       {% endif %} 
       {% if site.author_website_url %}
         <!-- <h6><i class="fas fa-link"></i> {{ site.author_website_url }}</h6> -->
-        <a class="fas fa-github" href="{{site.author_website_url}}">{{ site.author_website_url}}</a>
+        <a class="fab fa-github" href="{{site.author_website_url}}">{{ site.author_website_url}}</a>
       {% endif %}
       {% if site.linkedin_username %}
-        <a class="fas fa-linkedin-in" href="http://linkedin.com/in/{{ site.linkedin_username }}">{{ site.linkedin_username}}</a>
+        <a class="fab fa-linkedin-in" href="http://linkedin.com/in/{{ site.linkedin_username }}">{{ site.linkedin_username}}</a>
       {% endif %}
     </div>
 
