@@ -1,5 +1,5 @@
 title: Brandon Nadell
-subtitle: A Portfolio Jekyll Theme Built for Developers
+subtitle: website WIP
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
@@ -12,7 +12,7 @@ urls:
       url: /about
     - text: About
       url: /about
-    - text: Blog
+    - text: Projects
       url: /blog
     - text: Gallery
       url: /gallery
@@ -20,6 +20,12 @@ urls:
       url : /shop
     - text: Contact
       url : /contact
+    - text: Blood Moon Dawning
+      url: /blood_moon_dawning
+    - text: Shared Music Queue
+      url: /shared_music_queue
+    - text: Scorchfrost
+      url: /scorchfrost
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
@@ -35,17 +41,23 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 
 # Experiences
 author_work_experiences:
-            - company_name: remove this
+            - company_name: AppFolio
               company_logo: google.png
-              company_url: https://github.com/Brandon-Nadell/Blood-Moon-Dawning
-              designation: Blood Moon Dawning
-              description: desc for BMD
+              company_url: 
+              designation: Software Engineer
+              description: desc
               visibility: true
-            - company_name: remove this
+            - company_name: UCSB
               company_logo: microsoft.png
-              company_url: link
-              designation: Shared Music Queue
-              description: desc for SMQ
+              company_url:
+              designation: Undergraduate Learning Assistant
+              description: desc
+              visibility: true
+            - company_name: Mathnasium
+              company_logo: microsoft.png
+              company_url:
+              designation: Math Instructor
+              description: desc
               visibility: true
 
 # Education
@@ -60,14 +72,22 @@ author_education_details:
 # Projects
 author_project_details:
               - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+                project_title: Blood Moon Dawning
+                project_description: desc
+                project_page: blood_moon_dawning
+                project_url: https://github.com/Brandon-Nadell/Blood-Moon-Dawning
                 visibility: true
               - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
+                project_title: Shared Music Queue
+                project_description: desc
+                project_page: shared_music_queue
+                project_url: https://github.com/Brandon-Nadell/Shared-Music-Queue
+                visibility: true
+              - project_thumbnail: hack4r.PNG
+                project_title: Scorchfrost
+                project_description: desc
+                project_page: scorchfrost
+                project_url: https://github.com/Brandon-Nadell/Scorchfrost
                 visibility: true
 
 # social links
