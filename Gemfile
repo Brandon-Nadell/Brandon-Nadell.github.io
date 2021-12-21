@@ -1,11 +1,11 @@
 source "https://rubygems.org"
 
 gem 'jekyll', '~> 4.2', '>= 4.1.1'
-gem 'bundler', '~> 2.3.0'
+gem 'bundler', '~> 2.2.29'
 gem 'kramdown'
 gem 'rack-jekyll'
 gem 'rack'
-gem 'puma', '~> 5.5.0'
+gem 'puma'
 
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -35,5 +35,3 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 gem "webrick", "~> 1.7"
-
-gem "nio4r", "~> 2.5"
