@@ -18,9 +18,9 @@ layout: default
       {% if site.author_email %}
       <h6><i class="fas fa-envelope"></i> {{ site.author_email }}</h6>
       {% endif %} 
-      {% if site.author_website_url %}
+      {% if site.github_username %}
         <h6><i class="fab fa-github"></i>
-          <a href="{{site.author_website_url}}">{{ site.author_website_url}}</a>
+          <a href="http://github.com/{{site.github_username}}">{{ site.github_username}}</a>
         </h6>
       {% endif %}
       {% if site.linkedin_username %}
@@ -70,7 +70,12 @@ layout: default
           />
         </div>
         <div class="col-md-4 center">
-          <h4 class="experience-title">{{ project.project_title }}</h4>
+          <h4>
+            <a class="experience-title" href="/blog/{{project.project_page}}"
+              >{{ project.project_page}}</a
+            >
+          </h4>
+          <!-- <h4 class="experience-title">{{ project.project_title }}</h4> -->
           <h6 class="experience-info">{{ project.project_info}}</h6>
           <p class="experience-desc">{{ project.project_description }}</p>
           <p>
