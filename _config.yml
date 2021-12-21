@@ -21,11 +21,11 @@ urls:
     - text: Contact
       url : /contact
     - text: Blood Moon Dawning
-      url: /blood_moon_dawning
+      url: /blog/blood-moon-dawning
     - text: Shared Music Queue
-      url: /shared_music_queue
+      url: /blog/shared-music-queue
     - text: Scorchfrost
-      url: /scorchfrost
+      url: /blog/scorchfrost
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
@@ -94,7 +94,7 @@ author_project_details:
 twitter_username: 
 github_username:  Brandon-Nadell
 facebook_username: 
-linkedin_username: brandonnadell
+linkedin_username: brandon-nadell
 behance_username: 
 instagram_username: 
 medium_username: 
